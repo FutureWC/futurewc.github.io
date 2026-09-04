@@ -53,7 +53,7 @@ const adapter = process.env.GITHUB_ACTIONS
 
 // Ref: https://astro.build/config
 export default defineConfig({
-    site: siteConfig.siteURL,
+    site: 'https://futurewc.github.io',
     base: "/",
     trailingSlash: "always",
     adapter: adapter,
