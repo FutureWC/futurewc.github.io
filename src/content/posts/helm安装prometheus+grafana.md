@@ -40,9 +40,9 @@ export HTTP_PROXY="http://<代理IP>:端口"
 ```
 
 安装完成后，get pod 确认全部 pod 是否都已经 run。
-<img src="./image/state-metrics-error.jpg">
+![](./image/state-metrics-error.jpg)
 发现 state-metrics 错误，describe 查看错误信息
-<img src="./image/state-metrics-error-1.jpg">
+![](./image/state-metrics-error-1.jpg)
 发现 state-metrics 拉取镜像失败
 我这里通过本地 docker 来下载并打包到 node1 节点
 ```shell
