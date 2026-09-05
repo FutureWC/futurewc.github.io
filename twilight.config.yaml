@@ -313,6 +313,7 @@ profile:
             name: "bilibili"               # ← 显示的名字
             icon: "fa6-brands:bilibili"  # ← B站图标
             url: "https://space.bilibili.com/427063088"  # ← B站主页链接
+        
 
 # 公告配置
 announcement:
