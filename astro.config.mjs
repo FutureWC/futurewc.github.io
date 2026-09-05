@@ -244,6 +244,7 @@ export default defineConfig({
     //},
     redirects: {
         '/skills': '/404',
-        'projects': '/404',
+        '/projects': '/404',
+        '/timeline': '/404',
     },
 });
