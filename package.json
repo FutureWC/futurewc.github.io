@@ -8,7 +8,8 @@
 		"check-stylus": "node scripts/compile-inline-stylus.cjs",
 		"check": "astro check",
 		"dev": "node scripts/generate-icons.js && astro dev",
-		"build": "node scripts/generate-icons.js && node scripts/build-with-pagefind.cjs",
+		"refresh:bangumi": "node scripts/refresh-bangumi.mjs",
+		"build": "pnpm run refresh:bangumi && node scripts/generate-icons.js && node scripts/build-with-pagefind.cjs",
 		"preview": "astro preview",
 		"astro": "astro",
 		"new-post": "node scripts/new-post.js"

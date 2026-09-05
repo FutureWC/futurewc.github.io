@@ -242,4 +242,8 @@ export default defineConfig({
     //build: {
     //    inlineStylesheets: "always",
     //},
+    redirects: {
+        '/skills': '/404',
+        'projects': '/404',
+    },
 });
