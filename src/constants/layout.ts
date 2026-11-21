@@ -11,7 +11,7 @@ export const NAVBAR_FOLLOW_DISTANCE = 0;
 
 // Banner height unit (vh)
 export const BANNER_HEIGHT = 30;
-export const BANNER_HEIGHT_EXTEND = 36;
+export const BANNER_HEIGHT_EXTEND = 70;
 export const BANNER_HEIGHT_HOME = BANNER_HEIGHT + BANNER_HEIGHT_EXTEND;
 
 // The height the main panel overlaps the banner (rem)
